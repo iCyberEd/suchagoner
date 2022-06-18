@@ -1,0 +1,19 @@
+{
+  "name": "suchagoner",
+  "version": "1.0.0",
+  "description": "shows who we are",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "cyber",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "node-telegram-bot-api": "^0.57.0",
+    "nodemon": "^2.0.16",
+    "tgfancy": "^0.13.0"
+  }
+}
